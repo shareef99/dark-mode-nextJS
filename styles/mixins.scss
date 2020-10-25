@@ -1,0 +1,16 @@
+@mixin container {
+    $margin-top-n-bottom: 50px;
+    margin: $margin-top-n-bottom 30%;
+    @media (max-width: 1200px) {
+        margin: $margin-top-n-bottom 25%;
+    }
+    @media (max-width: 991px) {
+        margin: $margin-top-n-bottom 20%;
+    }
+    @media (max-width: 768px) {
+        margin: $margin-top-n-bottom 10%;
+    }
+    @media (max-width: 520px) {
+        margin: $margin-top-n-bottom 5%;
+    }
+}

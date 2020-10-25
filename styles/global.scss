@@ -1,0 +1,49 @@
+@import "./variables.scss";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    transition: all 0.3s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+body.dark-mode {
+    background-color: $background-color-dm;
+    color: $text-color-dm;
+    #navbar {
+        background-color: $header-bg-dm;
+        color: $background-color-dm;
+    }
+    #about {
+        background-color: $background-color-dm;
+        color: $text-color-dm;
+        color: #f7d1ba;
+    }
+    #darkModeToggle > button {
+        color: #333333;
+        &:last-child {
+            color: whitesmoke;
+            opacity: 1;
+        }
+    }
+
+    a {
+        font-weight: 700;
+    }
+}
+
+a {
+    color: inherit;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    &:hover {
+        text-decoration: underline;
+        opacity: 0.8;
+    }
+}

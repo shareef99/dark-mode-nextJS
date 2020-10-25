@@ -1,0 +1,6 @@
+@import "../mixins.scss";
+
+.introSection,
+.others {
+    @include container;
+}

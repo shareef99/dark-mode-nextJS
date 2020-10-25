@@ -1,0 +1,15 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+.aboutSection {
+    @include container;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 5rem - 100px);
+    background-color: $about-bg;
+    color: $about-text;
+    div {
+        margin: auto 10%;
+    }
+}
