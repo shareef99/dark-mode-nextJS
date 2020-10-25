@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./header";
 import Head from "next/head";
 
 export default function Layout({ children }) {
