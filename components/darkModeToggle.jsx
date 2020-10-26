@@ -4,6 +4,7 @@ import Styles from "../styles/components/darkMode.module.scss";
 
 export default function DarkModeToggle() {
     const darkMode = useDarkMode(false);
+    console.log(darkMode);
 
     return (
         <div id="darkModeToggle" className={Styles.darkModeToggle}>

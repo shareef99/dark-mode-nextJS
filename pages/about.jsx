@@ -10,6 +10,7 @@ export default function About() {
             <section id="about" className={Styles.aboutSection}>
                 <div>
                     <h2>About</h2>
+                    <p>Toggle the dark-mode to see difference.</p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Sapiente ducimus illum minima neque non corporis,

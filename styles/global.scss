@@ -9,11 +9,12 @@
 }
 
 body {
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
     font-family: "Poppins", sans-serif;
 }
 
 body.dark-mode {
+    // dm = dark-mode
     background-color: $background-color-dm;
     color: $text-color-dm;
     #navbar {
@@ -22,8 +23,7 @@ body.dark-mode {
     }
     #about {
         background-color: $background-color-dm;
-        color: $text-color-dm;
-        color: #f7d1ba;
+        color: $about-text-dm;
     }
     #darkModeToggle > button {
         color: #333333;
@@ -31,10 +31,6 @@ body.dark-mode {
             color: whitesmoke;
             opacity: 1;
         }
-    }
-
-    a {
-        font-weight: 700;
     }
 }
 
@@ -46,4 +42,8 @@ a {
         text-decoration: underline;
         opacity: 0.8;
     }
+}
+
+a.dark-mode {
+    color: red;
 }

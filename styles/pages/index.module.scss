@@ -1,6 +1,15 @@
 @import "../mixins.scss";
 
-.introSection,
-.others {
+.centerElement {
     @include container;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
 }
